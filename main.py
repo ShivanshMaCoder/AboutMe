@@ -25,8 +25,8 @@ st.markdown(custom_theme, unsafe_allow_html=True)
 
 # Load and resize passport photo
 passport_photo = Image.open('images/Shivansh_PassportPic.jpg')  # Replace with your actual path
-new_width = int(passport_photo.width * 0.8)
-new_height = int(passport_photo.height * 0.8)
+new_width = int(passport_photo.width * 0.5)
+new_height = int(passport_photo.height * 0.5)
 passport_photo_resized = passport_photo.resize((new_width, new_height))
 
 # Function to generate HTML for sidebar
